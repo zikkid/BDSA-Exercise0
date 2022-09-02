@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A485\\ITU_3.semester\\BDSA\\Exercises\\BDSA_Exercise0\\MyApp\\MyApp.csproj",
+      "projectUniqueName": "C:\\Users\\A485\\ITU_3.semester\\BDSA\\Exercises\\BDSA_Exercise0\\MyApp\\MyApp\\MyApp.csproj",
       "projectName": "MyApp",
-      "projectPath": "C:\\Users\\A485\\ITU_3.semester\\BDSA\\Exercises\\BDSA_Exercise0\\MyApp\\MyApp.csproj",
+      "projectPath": "C:\\Users\\A485\\ITU_3.semester\\BDSA\\Exercises\\BDSA_Exercise0\\MyApp\\MyApp\\MyApp.csproj",
       "packagesPath": "C:\\Users\\A485\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A485\\ITU_3.semester\\BDSA\\Exercises\\BDSA_Exercise0\\MyApp\\obj\\",
+      "outputPath": "C:\\Users\\A485\\ITU_3.semester\\BDSA\\Exercises\\BDSA_Exercise0\\MyApp\\MyApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\A485\\AppData\\Roaming\\NuGet\\NuGet.Config"
