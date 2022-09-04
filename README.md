@@ -1,2 +1,2 @@
-# BDSA_Exercise0
-Solution for exercise 0 in course BDSA
+# BDSA_Assignment0
+Solution for assignment 0 in course BDSA
