@@ -46,10 +46,63 @@ public class UnitTest1
     {
         //arrange
         
+        
         //act
         var result = Program.YayOrNay(1700);
 
         //assert
         result.Should().Be("nay");
+    }
+
+    [Fact]
+    public void method_TestInput_returns_negative_one_for_nonInteger_input()
+    {
+        //arrange
+
+        
+        //act
+        var result = Program.TestInput("qwerty");
+        
+        //assert
+        result.Should().Be(-1);
+    }
+    
+    [Fact]
+    public void method_TestInput_returns_int1600_for_str1600_input()
+    {
+        //arrange
+
+        
+        //act
+        var result = Program.TestInput("1600");
+        
+        //assert
+        result.Should().Be(1600);
+    }
+
+    [Fact]
+    public void method_DateCheck_returns_true_for_1582_input()
+    {
+        //arrange
+        
+        
+        //act
+        var result = Program.DateCheck(1582);
+
+        //assert
+        result.Should().Be(true);
+    }
+    
+    [Fact]
+    public void method_DateCheck_returns_false_for_1482_input()
+    {
+        //arrange
+        
+        
+        //act
+        var result = Program.DateCheck(1482);
+
+        //assert
+        result.Should().Be(false);
     }
 }
