@@ -1,4 +1,4 @@
-﻿namespace Namespace;
+﻿namespace MyApp;
 
 public class Program {
     static void Main(string[] args)
@@ -11,15 +11,9 @@ public class Program {
         {
             Console.WriteLine("{0} is not an integer", input);
         }
-        
-        if (IsLeapYear(year).Equals(true))
-        {
-            Console.WriteLine("yay");
-        }
-        else
-        {
-            Console.WriteLine("nay");
-        }
+
+        //this somehow prints "yay" when user inputs something not convertible to integer
+        Console.WriteLine(YayOrNay(year));
     }
 
     public static bool IsLeapYear(int year) 
@@ -38,5 +32,18 @@ public class Program {
         }
 
         return false;
+    }
+
+    public static string YayOrNay(int year)
+    {
+        if (IsLeapYear(year).Equals(true))
+        {
+            return "yay";
+        }
+        else
+        {
+            return "nay";
+        }
+        
     }
 }

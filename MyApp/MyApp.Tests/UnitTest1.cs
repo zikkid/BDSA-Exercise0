@@ -1,38 +1,55 @@
 using System.Reflection;
-using Namespace;
+using MyApp;
 
 namespace MyApp.Tests;
 
 public class UnitTest1
 {
     [Fact]
-    public void program_returns_is_leap_year_for_input_1600()
+    public static void method_IsLeapYear_returns_true_for_year_1600()
     {
         //arrange
-        //using var writer = new StringWriter();
-        var method = t.
-
+        
         //act
-        //var program = Assembly.Load(nameof(MyApp));
-        //program.EntryPoint?.Invoke(null, new[] { "1600" });
+        var result = Program.IsLeapYear(1600);
 
         //assert
-        //var output = writer.GetStringBuilder().ToString().TrimEnd();
-        //output.Should().Be("Is leap year");
+        result.Should().Be(true);
     }
     
     [Fact]
-    public void program_returns_is_NOT_leap_year_for_input_1700()
+    public void method_IsLeapYear_returns_false_for_year_1700()
     {
         //arrange
-        using var writer = new StringWriter();
-
+        
         //act
-        var program = Assembly.Load(nameof(MyApp));
-        program.EntryPoint?.Invoke(null, new[] { "1700" });
+        var result = Program.IsLeapYear(1700);
 
         //assert
-        var output = writer.GetStringBuilder().ToString().TrimEnd();
-        output.Should().Be("Is NOT leap year");
+        result.Should().Be(false);
+    }
+
+    [Fact]
+    public void method_YayOrNay_returns_yay_for_year_1600()
+    {
+        //arrange
+        
+        //act
+        var result = Program.YayOrNay(1600);
+
+        //assert
+        result.Should().Be("yay");
+    }
+    
+    [Fact]
+    public void method_YayOrNay_returns_nay_for_year_1700()
+    {
+        //arrange
+        
+        //act
+        var result = Program.YayOrNay(1700);
+
+        //assert
+        result.Should().Be("nay");
     }
 }
