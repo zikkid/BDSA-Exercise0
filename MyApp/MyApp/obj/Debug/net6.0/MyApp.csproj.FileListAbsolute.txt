@@ -13,3 +13,18 @@ C:\Users\A485\ITU_3.semester\BDSA\Exercises\BDSA_Exercise0\MyApp\MyApp\obj\Debug
 C:\Users\A485\ITU_3.semester\BDSA\Exercises\BDSA_Exercise0\MyApp\MyApp\obj\Debug\net6.0\MyApp.pdb
 C:\Users\A485\ITU_3.semester\BDSA\Exercises\BDSA_Exercise0\MyApp\MyApp\obj\Debug\net6.0\MyApp.genruntimeconfig.cache
 C:\Users\A485\ITU_3.semester\BDSA\Exercises\BDSA_Exercise0\MyApp\MyApp\obj\Debug\net6.0\ref\MyApp.dll
+C:\Users\markt\ITU_3semester\BDSA\Assignments\Assignment 0\BDSA_Assignment0\MyApp\MyApp\bin\Debug\net6.0\MyApp.exe
+C:\Users\markt\ITU_3semester\BDSA\Assignments\Assignment 0\BDSA_Assignment0\MyApp\MyApp\bin\Debug\net6.0\MyApp.deps.json
+C:\Users\markt\ITU_3semester\BDSA\Assignments\Assignment 0\BDSA_Assignment0\MyApp\MyApp\bin\Debug\net6.0\MyApp.runtimeconfig.json
+C:\Users\markt\ITU_3semester\BDSA\Assignments\Assignment 0\BDSA_Assignment0\MyApp\MyApp\bin\Debug\net6.0\MyApp.dll
+C:\Users\markt\ITU_3semester\BDSA\Assignments\Assignment 0\BDSA_Assignment0\MyApp\MyApp\bin\Debug\net6.0\MyApp.pdb
+C:\Users\markt\ITU_3semester\BDSA\Assignments\Assignment 0\BDSA_Assignment0\MyApp\MyApp\obj\Debug\net6.0\MyApp.csproj.AssemblyReference.cache
+C:\Users\markt\ITU_3semester\BDSA\Assignments\Assignment 0\BDSA_Assignment0\MyApp\MyApp\obj\Debug\net6.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\markt\ITU_3semester\BDSA\Assignments\Assignment 0\BDSA_Assignment0\MyApp\MyApp\obj\Debug\net6.0\MyApp.AssemblyInfoInputs.cache
+C:\Users\markt\ITU_3semester\BDSA\Assignments\Assignment 0\BDSA_Assignment0\MyApp\MyApp\obj\Debug\net6.0\MyApp.AssemblyInfo.cs
+C:\Users\markt\ITU_3semester\BDSA\Assignments\Assignment 0\BDSA_Assignment0\MyApp\MyApp\obj\Debug\net6.0\MyApp.csproj.CoreCompileInputs.cache
+C:\Users\markt\ITU_3semester\BDSA\Assignments\Assignment 0\BDSA_Assignment0\MyApp\MyApp\obj\Debug\net6.0\MyApp.dll
+C:\Users\markt\ITU_3semester\BDSA\Assignments\Assignment 0\BDSA_Assignment0\MyApp\MyApp\obj\Debug\net6.0\refint\MyApp.dll
+C:\Users\markt\ITU_3semester\BDSA\Assignments\Assignment 0\BDSA_Assignment0\MyApp\MyApp\obj\Debug\net6.0\MyApp.pdb
+C:\Users\markt\ITU_3semester\BDSA\Assignments\Assignment 0\BDSA_Assignment0\MyApp\MyApp\obj\Debug\net6.0\MyApp.genruntimeconfig.cache
+C:\Users\markt\ITU_3semester\BDSA\Assignments\Assignment 0\BDSA_Assignment0\MyApp\MyApp\obj\Debug\net6.0\ref\MyApp.dll

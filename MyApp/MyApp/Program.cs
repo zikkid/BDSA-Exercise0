@@ -3,7 +3,7 @@
 public class Program {
     static void Main(string[] args)
     {
-        Console.WriteLine("Type a year (>=1582) and I will tell you whether it was a leap year or not");
+        Console.WriteLine("type a year earlier than the gregorian calendar reform (>= 1582)");
         string input = Console.ReadLine();
         int year = TestInput(input);
 
@@ -33,7 +33,7 @@ public class Program {
 
     public static string YayOrNay(int year)
     {
-        if (DateCheck(year))
+        if (YearCheck(year))
         {
             if (IsLeapYear(year).Equals(true))
             {
@@ -43,7 +43,7 @@ public class Program {
             return "nay";
         }
 
-        return "year has to be 1582 or above";
+        return "year has to be 1582 or greater";
     }
 
     public static int TestInput(string input)
@@ -57,13 +57,24 @@ public class Program {
 
         if (int.TryParse(input, out year))
         {
+            if (year == -1)
+            {
+                Console.WriteLine("year 1 BC is not greater than 1582.\n" +
+                                  "however you would perhaps be delighted to know that according\n" +
+                                  "to both the julian calendar and the gregorian calendar,\n" +
+                                  "1 BC is indeed considered to have been a leap year.");
+            }
+        }
+
+        if (int.TryParse(input, out year))
+        {
             return year;
         }
 
         return -1;
     }
 
-    public static bool DateCheck(int input)
+    public static bool YearCheck(int input)
     {
         if (input >= 1582)
         {

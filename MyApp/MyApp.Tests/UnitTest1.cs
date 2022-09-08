@@ -81,28 +81,41 @@ public class UnitTest1
     }
 
     [Fact]
-    public void method_DateCheck_returns_true_for_1582_input()
+    public void method_YearCheck_returns_true_for_1582_input()
     {
         //arrange
         
         
         //act
-        var result = Program.DateCheck(1582);
+        var result = Program.YearCheck(1582);
 
         //assert
         result.Should().Be(true);
     }
     
     [Fact]
-    public void method_DateCheck_returns_false_for_1482_input()
+    public void method_YearCheck_returns_false_for_1482_input()
     {
         //arrange
         
         
         //act
-        var result = Program.DateCheck(1482);
+        var result = Program.YearCheck(1482);
 
         //assert
         result.Should().Be(false);
+    }
+
+    [Fact]
+    public void method_TestInput_handles_negative_1_input()
+    {
+        //arrange
+        
+        
+        //act
+        var result = Program.TestInput("-1");
+
+        //assert
+        result.Should().Be(-1);
     }
 }
